@@ -1,16 +1,17 @@
-![Logo do projeto](src/assets/teste.png)
+![Logo do projeto](src/assets/img.png)
 
-# App Countries
+# Recipe Generator App
 
 ## 🔥 Introdução
 
-Resolução de um desafio do [Frontend Mentor](https://www.frontendmentor.io), usando a api do [Rest Countries](https://restcountries.com/).
+Resolução de um desafio do [Web Dev Daily](https://www.webdevdaily.io/), usando a api do [The MedalDB](https://www.themealdb.com/api.php).
 
 Na aplicação desenvolvida você pode:
 
-- Ver informações sobre 250 países
-- Filtrar os paises pelo nome e a região
-- Escolher entre o tema claro e escuro para adaptar o app ao seu estilo
+- Acessar pelo celular ou desktop
+- Navegar por diversas receitas aleatórias
+- Visualizar receitas anteriores
+- Adicionar quantas receitas quiser nas receitas favoritas
 
 
 ### 🔨 Guia de instalação

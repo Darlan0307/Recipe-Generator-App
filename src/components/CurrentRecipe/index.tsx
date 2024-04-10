@@ -29,13 +29,13 @@ const CurrentRecipe = () => {
   if(!dataRecipe)return <h1>Carregando...</h1>
 
   return (
-    <section className="flex flex-col gap-10 lg:flex-row  lg:gap-0 lg:rounded-3xl overflow-hidden">
+    <section className="flex flex-col gap-10 lg:flex-row  lg:gap-0 lg:rounded-3xl overflow-hidden ">
 
       {smallScreen && <Actions/>}
 
-      <img className=" w-full max-w-[400px] mx-auto" src={dataRecipe?.strMealThumb || ''} alt={dataRecipe?.strMeal || ''} />
+      <img className="w-full max-w-[400px] mx-auto" src={dataRecipe?.strMealThumb || ''} alt={dataRecipe?.strMeal || ''} />
       
-      <div className="lg:max-w-[50vw] bg-white lg:py-7 lg:px-5">
+      <div className="lg:max-w-[50vw] bg-white lg:py-7 lg:px-5 ">
         <div className="px-6 mb-7">
           <h2 className="text-3xl mb-3 font-bold">{dataRecipe?.strMeal || ''}</h2>
           <ul className="list-disc list-inside flex flex-col gap-3 md:grid md:grid-cols-2">
