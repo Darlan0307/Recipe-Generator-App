@@ -22,7 +22,7 @@ type ProviderProps = {
 export const RecipeProvider = ({children}:ProviderProps) => {
 
   const [dataRecipe,setDataRecipe] = useState<TypeRecipe>({})
-  const [favoritesRecipes,setFavoritesRecipes] = useState<TypeRecipe[]>(JSON.parse(localStorage.getItem('FavoritesRecipes') || "") || [])
+  const [favoritesRecipes,setFavoritesRecipes] = useState<TypeRecipe[]>(JSON.parse(localStorage.getItem('FavoritesRecipes') || "[]") || [])
   const [backRecipe,setBackRecipe] = useState<TypeRecipe[] | []>([])
 
   const fetchData = async() => {

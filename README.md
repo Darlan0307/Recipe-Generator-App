@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+![Logo do projeto](src/assets/teste.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# App Countries
 
-Currently, two official plugins are available:
+## 🔥 Introdução
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Resolução de um desafio do [Frontend Mentor](https://www.frontendmentor.io), usando a api do [Rest Countries](https://restcountries.com/).
 
-## Expanding the ESLint configuration
+Na aplicação desenvolvida você pode:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Ver informações sobre 250 países
+- Filtrar os paises pelo nome e a região
+- Escolher entre o tema claro e escuro para adaptar o app ao seu estilo
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### 🔨 Guia de instalação
+
+Etapas para instalar:
+
+Passo 1:
+```
+git clone https://github.com/Darlan0307/App-Contries.git
+```
+Passo 2:
+```
+npm install
+```
+Passo 3:
+```
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## 📦 Tecnologias usadas:
+
+
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+
+## 💡 Social
+
+* Link para o seu linkedin [Meu linkedin](https://www.linkedin.com/in/darlan-martins-8a7956259/)
